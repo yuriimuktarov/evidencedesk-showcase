@@ -1,0 +1,39 @@
+{
+  "type": "PUBLIC_SUMMARY_OF_ARCHIVED_RECEIPT_NOT_ORIGINAL",
+  "data_rows": 9999,
+  "archived_status": "INDEPENDENT_TABLE_COUNT_VERIFIED",
+  "claims": [
+    {
+      "id": "approve_count",
+      "column": "Status",
+      "equals": "Approved",
+      "claimed_count": 9863,
+      "actual_count": 9858
+    },
+    {
+      "id": "pending_count",
+      "column": "Status",
+      "equals": "Pending",
+      "claimed_count": 70,
+      "actual_count": 74
+    },
+    {
+      "id": "region_north",
+      "column": "Region",
+      "equals": "North",
+      "claimed_count": 9864,
+      "actual_count": 9875
+    },
+    {
+      "id": "unknown_column",
+      "column": "RiskClass",
+      "equals": "High",
+      "claimed_count": 3,
+      "actual_count": null
+    }
+  ],
+  "source_sha256": "f03d6d23cbb6b716efea95d6524aa3191890ae5e45088660cff90b3a75def242",
+  "claims_sha256": "2caa86afb7b89cc786632b724cb4274d5c323dce61bd5cc73cdbc83755fe10ad",
+  "report_sha256": "d1edff9df4d1ba9e2f4f6d06525e60c8842a124ad777386f4dbf75deae0b2aea",
+  "scope": "Exact cell equality and row counts only. Not a signature. No live customer access."
+}

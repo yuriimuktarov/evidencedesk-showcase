@@ -1,0 +1,26 @@
+[
+  {
+    "id": "approve_count",
+    "column": "Status",
+    "equals": "Approved",
+    "claimed_count": 9863
+  },
+  {
+    "id": "pending_count",
+    "column": "Status",
+    "equals": "Pending",
+    "claimed_count": 70
+  },
+  {
+    "id": "region_north",
+    "column": "Region",
+    "equals": "North",
+    "claimed_count": 9864
+  },
+  {
+    "id": "unknown_column",
+    "column": "RiskClass",
+    "equals": "High",
+    "claimed_count": 3
+  }
+]
