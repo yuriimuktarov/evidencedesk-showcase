@@ -6,7 +6,7 @@ EvidenceDesk checks numerical claims against Excel records. A reviewer can trace
 An operations report may overstate approved invoices or undercount pending work. Teams can identify the discrepancy, examine the rule and propose a corrected figure before circulating the report.
 
 ## Interactive demonstration
-[Open the portfolio demo](https://yuriimuktarov.github.io/evidencedesk-showcase/) or download the repository and open index.html locally. Choose Ukrainian or Russian, select the 200-row example and run the check. The browser counts embedded synthetic records. The larger example displays archived results. All examples work offline.
+[Open the portfolio demo](https://yuriimuktarov.github.io/evidencedesk-showcase/) or download the repository and open `index.html` locally. English is the default; Ukrainian (UA) and Russian (RU) remain available. Select the 200-row example and run the checks. The browser counts embedded synthetic records. The larger example displays archived results, not a new server run; its table preview uses the small example. Download the larger workbook to verify its archived counts. All examples work offline.
 
 ## Example audit workflow
 1. Open the [small workbook](example_200_rows.xlsx) and [claim definitions](claims_200_rows.json).
